@@ -6,15 +6,15 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name='matrix_path',
-    version='1.0.0',
+    version='1.1.0',
     description='Navigating and Visualizing paths in a 2D Matrix.',
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/rushmash91/matrix_path",
     author="Arush Sharma",
     author_email="arushsharma91@gmail.com",
-    packages=["matrix"],
-    include_package_data=True,
+    py_modules=["matrix"],
+    package_dir={"": "src"},
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",

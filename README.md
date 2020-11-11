@@ -1,5 +1,6 @@
 # matrix_path
 
+[Package Info](https://pypi.org/project/matrix-path/)
 
 ## Description
 Use the matrix class to create matrix objects and navigate the 2D matrix. Move with the ``` right ```, ``` left ```, ``` up ```, and ``` down ``` functions.
